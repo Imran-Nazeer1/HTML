@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form And Input</title>
+</head>
+
+<body>
+    <form action="post">
+        <h1>This is a form to apply for TA - Mtech</h1>
+        <div>
+            <label for="Username">Enter your Username</label>
+            <input type="text" placeholder="Enter your Username" name="Username" id="Username" autofocus>
+        </div>
+        <div>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Male" id="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Female" id="Female">
+        </div>
+
+        <div>
+            <input type="checkbox" name="check" id="Learn">
+            <label for="Learn">Learning Web dev</label>
+        </div>
+
+        <div>
+            <textarea name="text" id="Comment" name="Comment" rows="4" cols="50" placeholder="Enter your Comment"></textarea>
+        </div>
+
+        <div>
+            <select name="city" id="Journey">
+                <option value="delhi">Delhi </option>
+                <option value="Mumbai">Mumbai </option>
+                <option value="goa">goa </option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
